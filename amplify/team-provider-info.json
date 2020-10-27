@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myairquality-dev-143321-authRole",
+      "UnauthRoleArn": "arn:aws:iam::232756908680:role/amplify-myairquality-dev-143321-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::232756908680:role/amplify-myairquality-dev-143321-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myairquality-dev-143321-deployment",
+      "UnauthRoleName": "amplify-myairquality-dev-143321-unauthRole",
+      "StackName": "amplify-myairquality-dev-143321",
+      "StackId": "arn:aws:cloudformation:us-east-1:232756908680:stack/amplify-myairquality-dev-143321/0ac24240-189c-11eb-b796-0edf444c3fff",
+      "AmplifyAppId": "d3nrwos75auzfl"
+    }
+  }
+}
