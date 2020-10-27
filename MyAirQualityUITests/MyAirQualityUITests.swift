@@ -1,9 +1,3 @@
-//
-//  MyAirQualityUITests.swift
-//  MyAirQualityUITests
-//
-//  Created by Bennett Smith on 10/27/20.
-//
 
 import XCTest
 
