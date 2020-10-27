@@ -16,6 +16,10 @@
 		484B6A9625489AE200174F4D /* MyAirQualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B6A9525489AE200174F4D /* MyAirQualityUITests.swift */; };
 		7C9870BD99E4030BE88CD036 /* Pods_MyAirQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10527157CB57E50FAEFAF0D8 /* Pods_MyAirQuality.framework */; };
 		97CB27AF4BCF47EA8DC2F983 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 86558A51D485475FBF533753 /* awsconfiguration.json */; };
+		9BB7BEACB550470390A8C483 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C70E29ED83449ABC4AD69D /* AmplifyModels.swift */; };
+		E1878210F5F64AC9A870C1AB /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2845D934A4A4CC5A1E99EE9 /* Priority.swift */; };
+		CB31EE89DD744290990A570B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3F58485DD431BADB6D7E6 /* Todo.swift */; };
+		96226F34A98D4ED082ECFA52 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9C0822204C91A1D717CB /* Todo+Schema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		86558A51D485475FBF533753 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		A6C3C57902674C8286E3B751 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		EDED3ADF18E27E46BBC9C00F /* Pods-MyAirQuality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAirQuality.release.xcconfig"; path = "Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality.release.xcconfig"; sourceTree = "<group>"; };
+		24C70E29ED83449ABC4AD69D /* AmplifyModels.swift */ = {isa = PBXFileReference; name = "AmplifyModels.swift"; path = "amplify/generated/models/AmplifyModels.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		C2845D934A4A4CC5A1E99EE9 /* Priority.swift */ = {isa = PBXFileReference; name = "Priority.swift"; path = "amplify/generated/models/Priority.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		BCA3F58485DD431BADB6D7E6 /* Todo.swift */ = {isa = PBXFileReference; name = "Todo.swift"; path = "amplify/generated/models/Todo.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		3A8D9C0822204C91A1D717CB /* Todo+Schema.swift */ = {isa = PBXFileReference; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 		484B6A6C25489AE200174F4D = {
 			isa = PBXGroup;
 			children = (
+				C83942E14DC6415DBA176666 /* AmplifyModels */,
 				1422D93E3A4C4DDA96D55B3D /* AmplifyConfig */,
 				484B6A7725489AE200174F4D /* MyAirQuality */,
 				484B6A8925489AE200174F4D /* MyAirQualityTests */,
@@ -172,6 +181,26 @@
 				10527157CB57E50FAEFAF0D8 /* Pods_MyAirQuality.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83942E14DC6415DBA176666 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				24C70E29ED83449ABC4AD69D /* AmplifyModels.swift */,
+				C2845D934A4A4CC5A1E99EE9 /* Priority.swift */,
+				BCA3F58485DD431BADB6D7E6 /* Todo.swift */,
+				3A8D9C0822204C91A1D717CB /* Todo+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
+		4D7EEE0A0973472C9060E94C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +380,10 @@
 			files = (
 				484B6A7B25489AE200174F4D /* ContentView.swift in Sources */,
 				484B6A7925489AE200174F4D /* MyAirQualityApp.swift in Sources */,
+				9BB7BEACB550470390A8C483 /* AmplifyModels.swift in Sources */,
+				E1878210F5F64AC9A870C1AB /* Priority.swift in Sources */,
+				CB31EE89DD744290990A570B /* Todo.swift in Sources */,
+				96226F34A98D4ED082ECFA52 /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

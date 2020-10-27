@@ -1,8 +1,8 @@
 {
-    "projectName": "MyAirQuality",
-    "version": "2.0",
-    "frontend": "ios",
-    "providers": [
-        "awscloudformation"
-    ]
+  "projectName": "MyAirQuality",
+  "version": "3.0",
+  "frontend": "ios",
+  "providers": [
+    "awscloudformation"
+  ]
 }
