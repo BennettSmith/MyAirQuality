@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C30B648565E4063B688AAA6 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A6C3C57902674C8286E3B751 /* amplifyconfiguration.json */; };
 		484B6A7925489AE200174F4D /* MyAirQualityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B6A7825489AE200174F4D /* MyAirQualityApp.swift */; };
 		484B6A7B25489AE200174F4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B6A7A25489AE200174F4D /* ContentView.swift */; };
 		484B6A7D25489AE200174F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484B6A7C25489AE200174F4D /* Assets.xcassets */; };
 		484B6A8025489AE200174F4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484B6A7F25489AE200174F4D /* Preview Assets.xcassets */; };
 		484B6A8B25489AE200174F4D /* MyAirQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B6A8A25489AE200174F4D /* MyAirQualityTests.swift */; };
 		484B6A9625489AE200174F4D /* MyAirQualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B6A9525489AE200174F4D /* MyAirQualityUITests.swift */; };
+		7C9870BD99E4030BE88CD036 /* Pods_MyAirQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10527157CB57E50FAEFAF0D8 /* Pods_MyAirQuality.framework */; };
+		97CB27AF4BCF47EA8DC2F983 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 86558A51D485475FBF533753 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08AE798DFB294509A21867FD /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		10527157CB57E50FAEFAF0D8 /* Pods_MyAirQuality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAirQuality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484B6A7525489AE200174F4D /* MyAirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484B6A7825489AE200174F4D /* MyAirQualityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAirQualityApp.swift; sourceTree = "<group>"; };
 		484B6A7A25489AE200174F4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		484B6A9125489AE200174F4D /* MyAirQualityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAirQualityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484B6A9525489AE200174F4D /* MyAirQualityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAirQualityUITests.swift; sourceTree = "<group>"; };
 		484B6A9725489AE200174F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544D83848E0C41D795F9E906 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = amplifytools.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		5A3C7FA482E7762C5347FAB6 /* Pods-MyAirQuality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAirQuality.debug.xcconfig"; path = "Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality.debug.xcconfig"; sourceTree = "<group>"; };
+		86558A51D485475FBF533753 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		A6C3C57902674C8286E3B751 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		EDED3ADF18E27E46BBC9C00F /* Pods-MyAirQuality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAirQuality.release.xcconfig"; path = "Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9870BD99E4030BE88CD036 /* Pods_MyAirQuality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +83,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1422D93E3A4C4DDA96D55B3D /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				544D83848E0C41D795F9E906 /* amplifytools.xcconfig */,
+				A6C3C57902674C8286E3B751 /* amplifyconfiguration.json */,
+				86558A51D485475FBF533753 /* awsconfiguration.json */,
+				08AE798DFB294509A21867FD /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		2AE983F09329AEFC223D8095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C7FA482E7762C5347FAB6 /* Pods-MyAirQuality.debug.xcconfig */,
+				EDED3ADF18E27E46BBC9C00F /* Pods-MyAirQuality.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		484B6A6C25489AE200174F4D = {
 			isa = PBXGroup;
 			children = (
+				1422D93E3A4C4DDA96D55B3D /* AmplifyConfig */,
 				484B6A7725489AE200174F4D /* MyAirQuality */,
 				484B6A8925489AE200174F4D /* MyAirQualityTests */,
 				484B6A9425489AE200174F4D /* MyAirQualityUITests */,
 				484B6A7625489AE200174F4D /* Products */,
+				2AE983F09329AEFC223D8095 /* Pods */,
+				7CB52C34C0E8A70EC070ABC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +166,14 @@
 			path = MyAirQualityUITests;
 			sourceTree = "<group>";
 		};
+		7CB52C34C0E8A70EC070ABC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10527157CB57E50FAEFAF0D8 /* Pods_MyAirQuality.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 484B6A9A25489AE200174F4D /* Build configuration list for PBXNativeTarget "MyAirQuality" */;
 			buildPhases = (
+				FC0CE2BE877D4CFE6C648936 /* [CP] Check Pods Manifest.lock */,
 				484B6A7125489AE200174F4D /* Sources */,
 				484B6A7225489AE200174F4D /* Frameworks */,
 				484B6A7325489AE200174F4D /* Resources */,
+				FED48B840A51B14B1527E7A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +281,8 @@
 			files = (
 				484B6A8025489AE200174F4D /* Preview Assets.xcassets in Resources */,
 				484B6A7D25489AE200174F4D /* Assets.xcassets in Resources */,
+				2C30B648565E4063B688AAA6 /* amplifyconfiguration.json in Resources */,
+				97CB27AF4BCF47EA8DC2F983 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +301,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC0CE2BE877D4CFE6C648936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAirQuality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED48B840A51B14B1527E7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAirQuality/Pods-MyAirQuality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		484B6A7125489AE200174F4D /* Sources */ = {
@@ -414,6 +504,7 @@
 		};
 		484B6A9B25489AE200174F4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3C7FA482E7762C5347FAB6 /* Pods-MyAirQuality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +527,7 @@
 		};
 		484B6A9C25489AE200174F4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDED3ADF18E27E46BBC9C00F /* Pods-MyAirQuality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
